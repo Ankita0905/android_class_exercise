@@ -10,6 +10,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    Marks m;
     EditText ios,swift,java,android,dbms;
     Button Add;
     @Override
@@ -28,6 +29,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view)
             {
                 Intent mIntent=new Intent(MainActivity.this,ResultActivity.class);
+                m = new Marks();
+                m.setmDbms(Integer.parseInt(android.getText().toString()));
+                m.setmAndroid(Integer.parseInt(android.getText().toString()));
+                m.setmIos(Integer.parseInt(android.getText().toString()));
+                m.setmSwift(Integer.parseInt(android.getText().toString()));
+                m.setmJava(Integer.parseInt(android.getText().toString()));
+
+                mIntent.putExtra("marks", m);
+
+
+                startActivity(mIntent);
             }
         });
     }

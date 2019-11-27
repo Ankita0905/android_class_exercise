@@ -13,7 +13,7 @@
         android:layout_marginStart="26dp"
         android:layout_marginEnd="326dp"
         android:text="DataBase"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/edtdbms"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.37"
@@ -26,7 +26,7 @@
         android:layout_marginStart="26dp"
         android:layout_marginEnd="326dp"
         android:text="Swift"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/edtswift"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -38,7 +38,7 @@
         android:layout_marginStart="26dp"
         android:layout_marginEnd="326dp"
         android:text="iOS"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/edtios"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -50,7 +50,7 @@
         android:layout_marginStart="26dp"
         android:layout_marginEnd="326dp"
         android:text="Android"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/edtandroid"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -62,7 +62,7 @@
         android:layout_marginStart="26dp"
         android:layout_marginEnd="326dp"
         android:text="Java"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/edtjava"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
