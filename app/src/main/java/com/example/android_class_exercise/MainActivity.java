@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
             {
                 Intent mIntent=new Intent(MainActivity.this,ResultActivity.class);
                 m = new Marks();
-                m.setmDbms(Integer.parseInt(android.getText().toString()));
+                m.setmDbms(Integer.parseInt(dbms.getText().toString()));
                 m.setmAndroid(Integer.parseInt(android.getText().toString()));
-                m.setmIos(Integer.parseInt(android.getText().toString()));
-                m.setmSwift(Integer.parseInt(android.getText().toString()));
-                m.setmJava(Integer.parseInt(android.getText().toString()));
+                m.setmIos(Integer.parseInt(ios.getText().toString()));
+                m.setmSwift(Integer.parseInt(swift.getText().toString()));
+                m.setmJava(Integer.parseInt(java.getText().toString()));
 
                 mIntent.putExtra("marks", m);
 

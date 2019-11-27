@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 public class ResultActivity extends AppCompatActivity {
 
+
     TextView iosM,dbmsM,androidM,javaM,swiftM;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,10 @@ public class ResultActivity extends AppCompatActivity {
 
 
         Marks m = (Marks)getIntent().getSerializableExtra("marks");
-        iosM.getText()
+        iosM.setText(m.getmIos());
+        androidM.setText(m.getmAndroid());
+        javaM.setText(m.getmJava());
+        swiftM.setText(m.getmSwift());
+        dbmsM.setText(m.getmDbms());
     }
 }

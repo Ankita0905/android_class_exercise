@@ -6,7 +6,7 @@ public class Marks implements Serializable
 {
 int mIos,mSwift,mAndroid,mJava,mDbms;
 
-    public int getmIos(int i) {
+    public int getmIos() {
         return mIos;
     }
 
@@ -14,7 +14,7 @@ int mIos,mSwift,mAndroid,mJava,mDbms;
         this.mIos = mIos;
     }
 
-    public int getmSwift(int i) {
+    public int getmSwift() {
         return mSwift;
     }
 
