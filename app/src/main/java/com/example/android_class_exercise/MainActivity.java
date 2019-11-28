@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ios=findViewById(R.id.edtdbms);
+        ios=findViewById(R.id.edtios);
         swift=findViewById(R.id.edtswift);
         java=findViewById(R.id.edtjava);
         android=findViewById(R.id.edtandroid);
