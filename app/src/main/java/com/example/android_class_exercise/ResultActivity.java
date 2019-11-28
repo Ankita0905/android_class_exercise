@@ -21,10 +21,10 @@ public class ResultActivity extends AppCompatActivity {
 
 
         Marks m = (Marks)getIntent().getSerializableExtra("marks");
-        iosM.setText(m.getmIos());
-        androidM.setText(m.getmAndroid());
-        javaM.setText(m.getmJava());
-        swiftM.setText(m.getmSwift());
-        dbmsM.setText(m.getmDbms());
+        iosM.setText(String.valueOf(m.getmIos()));
+        androidM.setText(String.valueOf(m.getmAndroid()));
+        javaM.setText(String.valueOf(m.getmJava()));
+        swiftM.setText(String.valueOf(m.getmSwift()));
+        dbmsM.setText(String.valueOf(m.getmDbms()));
     }
 }
